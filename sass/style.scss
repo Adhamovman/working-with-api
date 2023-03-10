@@ -1,0 +1,9 @@
+.card {
+    background: rgb(200,255,253);
+    background: linear-gradient(253deg, rgba(200,255,253,0.6953125) 8%, rgba(201, 255, 247, 0.295) 42%, rgba(215,255,243,1) 93%);
+  transition: all 0.2s ease-in-out;
+  border: none;
+  &:hover {
+    box-shadow: 0 3px 10px rgba(15, 15, 15, 0.26);
+  }
+}
